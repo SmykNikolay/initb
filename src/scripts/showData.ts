@@ -1,5 +1,5 @@
 import DatabaseSingleton from '../database';
-import { User } from '../models/User';
+import { User } from '../models/User/User';
 
 (async () => {
   const database = DatabaseSingleton.getInstance();
