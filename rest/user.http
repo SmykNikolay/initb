@@ -1,0 +1,15 @@
+### Получить всех пользователей
+GET http://localhost:3000/users
+
+### Получить пользователя по ID
+GET http://localhost:3000/users/1
+
+### Создать нового пользователя
+POST http://localhost:3000/users
+Content-Type: application/json
+
+{
+  "name": "John Doe",
+  "about": "Software Developer",
+  "avatar": "http://example.com/avatar.jpg"
+}
