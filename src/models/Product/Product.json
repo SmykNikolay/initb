@@ -1,0 +1,13 @@
+{
+  "id": 1,
+  "name": "Платье",
+  "article": "DRS12345",
+  "description": "Элегантное вечернее платье",
+  "price": 4999.99,
+  "user": {
+    "id": 1,
+    "name": "Анна Иванова",
+    "about": "Постоянный покупатель",
+    "avatar": "https://example.com/avatar.jpg"
+  }
+}

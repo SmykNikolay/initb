@@ -1,0 +1,14 @@
+{
+  "id": 1,
+  "cart": {
+    "id": 1
+  },
+  "product": {
+    "id": 1,
+    "name": "Платье",
+    "article": "DRS12345",
+    "description": "Элегантное вечернее платье",
+    "price": 4999.99
+  },
+  "quantity": 2
+}
