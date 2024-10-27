@@ -1,7 +1,7 @@
 import 'reflect-metadata';
 import { Entity, PrimaryGeneratedColumn, ManyToOne, Column } from 'typeorm';
-import { Cart } from '../Cart/Cart';
-import { Product } from '../Product/Product';
+import { Cart } from './Cart';
+import { Product } from './Product';
 
 @Entity()
 export class CartItem {

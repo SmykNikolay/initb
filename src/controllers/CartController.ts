@@ -1,7 +1,7 @@
 import { Request, Response, NextFunction } from 'express';
 import Database from '../database';
-import { Cart } from '../models/Cart/Cart';
-import { CartItem } from '../models/CartItem/CartItem';
+import { Cart } from '../models/Cart';
+import { CartItem } from '../models/CartItem';
 import { HttpError } from '../middlewares/errorHandler';
 
 export class CartController {

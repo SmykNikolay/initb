@@ -1,6 +1,6 @@
 import { Request, Response, NextFunction } from 'express';
 import Database from '../database';
-import { OrderItem } from '../models/OrderItem/OrderItem';
+import { OrderItem } from '../models/OrderItem';
 import { HttpError } from '../middlewares/errorHandler';
 
 export class OrderItemController {

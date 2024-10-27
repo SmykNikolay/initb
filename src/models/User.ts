@@ -1,8 +1,8 @@
 import 'reflect-metadata';
 import { Entity, PrimaryGeneratedColumn, Column, OneToMany } from 'typeorm';
-import { Product } from '../Product/Product';
-import { Cart } from '../Cart/Cart';
-import { Order } from '../Order/Order';
+import { Cart } from './Cart';
+import { Order } from './Order';
+import { Product } from './Product';
 
 @Entity()
 export class User {

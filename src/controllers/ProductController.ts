@@ -1,6 +1,6 @@
 import { Request, Response, NextFunction } from 'express';
 import Database from '../database';
-import { Product } from '../models/Product/Product';
+import { Product } from '../models/Product';
 import { HttpError } from '../middlewares/errorHandler';
 
 export class ProductController {

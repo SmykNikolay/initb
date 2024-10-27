@@ -1,8 +1,8 @@
 // OrderController.ts
 import { Request, Response, NextFunction } from 'express';
 import Database from '../database';
-import { Order } from '../models/Order/Order';
-import { OrderItem } from '../models/OrderItem/OrderItem';
+import { Order } from '../models/Order';
+import { OrderItem } from '../models/OrderItem';
 import { HttpError } from '../middlewares/errorHandler';
 
 export class OrderController {

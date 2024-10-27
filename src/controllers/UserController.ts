@@ -1,6 +1,6 @@
 import { Request, Response, NextFunction } from 'express';
 import Database from '../database';
-import { User } from '../models/User/User';
+import { User } from '../models/User';
 import { HttpError } from '../middlewares/errorHandler';
 
 export class UserController {

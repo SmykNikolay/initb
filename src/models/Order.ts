@@ -6,8 +6,8 @@ import {
   ManyToOne,
   OneToMany,
 } from 'typeorm';
-import { User } from '../User/User';
-import { OrderItem } from '../OrderItem/OrderItem';
+import { OrderItem } from './OrderItem';
+import { User } from './User';
 
 @Entity()
 export class Order {
