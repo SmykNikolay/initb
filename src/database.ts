@@ -1,4 +1,10 @@
+import { Cart } from './models/Cart';
+import { CartItem } from './models/CartItem';
+import { Order } from './models/Order';
+import { OrderItem } from './models/OrderItem';
+import { Product } from './models/Product';
 import { User } from './models/User';
+
 import { DataSource, Repository, ObjectLiteral } from 'typeorm';
 
 class DatabaseSingleton {
@@ -9,7 +15,7 @@ class DatabaseSingleton {
     this._dataSource = new DataSource({
       type: 'sqlite',
       database: 'database.sqlite',
-      entities: [User],
+      entities: [User, Cart, CartItem, Order, OrderItem, Product],
       synchronize: false, // Отключаем авто-синхронизацию
     });
   }
